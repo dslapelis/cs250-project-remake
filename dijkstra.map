@@ -1,0 +1,103 @@
+Load map
+========
+
+Module:  dijkstra.obj
+ Text segment:  2696 bytes, load point 0x00400000
+ Data segment:  10288 bytes, load point 0x10000000
+ Symbols:
+                       Name Section Mode    Value
+                     error1   Data   R   0x10002734
+                       dist   Data   R   0x10002580
+                     error2   Data   R   0x10002768
+                     error3   Data   R   0x1000279d
+                     error4   Data   R   0x100027b7
+                     error5   Data   R   0x100027d6
+                    pn_loop   Text   R   0x00400704
+                     error6   Data   R   0x100027f0
+                   y_gt_ten   Text   R   0x004002dc
+                break_adj_V   Text   R   0x00400678
+                unreachable   Data   R   0x10002820
+                 print_grid   Text   R   0x0040024c
+                    prompt1   Data   R   0x10002808
+             done_read_data   Text   R   0x00400128
+               num_node_err   Text   R   0x004009f8
+        for_find_short_path   Text   R   0x004004fc
+               invl_src_err   Text   R   0x00400a28
+                       path   Data   R   0x10002648
+   populate_dijkstra_arrays   Text   R   0x004008c0
+          setup_grid_loop_x   Text   R   0x004001c4
+                      edges   Data   R   0x10000000
+          setup_grid_loop_y   Text   R   0x004001bc
+                    pp_cont   Text   R   0x00400894
+     setup_grid_loop_x_done   Text   R   0x00400218
+     print_top_columns_done   Text   R   0x00400468
+                 board_dash   Data   R   0x100026fc
+                   READ_INT          A   0x00000005
+                print_nodes   Text   R   0x004006b0
+             grid_data_cont   Text   R   0x004002e8
+               for_min_dist   Text   R   0x00400998
+               invl_dst_err   Text   R   0x00400a40
+                   INFINITY          A   0x7ffffffe
+            print_grid_data   Text   R   0x004002a0
+              print_top_row   Text   R   0x004003d8
+                    newline   Data   R   0x10002819
+              board_space_1   Data   R   0x100026fe
+                    edge_ne   Text   R   0x004001fc
+              board_space_2   Data   R   0x10002700
+                 adj_V_loop   Text   R   0x004005b4
+              board_space_3   Data   R   0x10002703
+              board_space_4   Data   R   0x10002707
+              board_space_6   Data   R   0x1000270c
+              board_space_7   Data   R   0x10002713
+       print_grid_data_done   Text   R   0x004003ac
+              populate_done   Text   R   0x0040092c
+               search_edges   Text   R   0x004001d4
+                 dst_is_src   Text   R   0x0040088c
+                     gt_ten   Text   R   0x00400444
+                data_lt_ten   Text   R   0x0040032c
+                       grid   Data   R   0x100012c0
+               min_distance   Text   R   0x00400948
+     setup_grid_loop_y_done   Text   R   0x00400220
+               PRINT_STRING          A   0x00000004
+                      comma   Data   R   0x1000281b
+                node_ge_ten   Text   R   0x00400730
+                 read_nodes   Text   R   0x0040004c
+                      colon   Data   R   0x1000281e
+              invl_strt_err   Text   R   0x00400a70
+                       main   Text   R   0x00400000
+                   dijkstra   Text   R   0x004004a4
+             pp_unreachable   Text   R   0x00400890
+               pn_loop_done   Text   R   0x004007cc
+                  reachable   Text   R   0x004007c4
+               num_edge_err   Text   R   0x00400a10
+               pn_loop_cont   Text   R   0x00400740
+       find_short_path_done   Text   R   0x00400540
+                  break_min   Text   R   0x004009b8
+  print_grid_data_loop_done   Text   R   0x00400394
+                 print_path   Text   R   0x00400808
+                      nmsrc   Data   R   0x100026ac
+             pn_unreachable   Text   R   0x004007b4
+                   populate   Text   R   0x004008f8
+         board_dijkstra_top   Data   R   0x1000271b
+                     sptSet   Data   R   0x100025e4
+             data_isnt_zero   Text   R   0x00400360
+                 adj_V_done   Text   R   0x00400684
+          print_top_columns   Text   R   0x00400418
+          for_min_dist_done   Text   R   0x004009c8
+         print_top_col_cont   Text   R   0x00400460
+                 setup_grid   Text   R   0x00400180
+       print_grid_data_loop   Text   R   0x004002ec
+                search_done   Text   R   0x00400208
+                  PRINT_INT          A   0x00000001
+               data_lt_hund   Text   R   0x0040036c
+                  read_data   Text   R   0x004000c0
+               data_is_zero   Text   R   0x00400350
+            invl_weight_err   Text   R   0x00400a58
+         adjacent_verticies   Text   R   0x00400570
+
+Module:  r2k_startup.obj
+ Text segment:  36 bytes, load point 0x00400a88
+ Symbols:
+                       Name Section Mode    Value
+                  SYS_EXIT2          A   0x00000011
+             __r2k__entry__   Text   RG  0x00400a8c
